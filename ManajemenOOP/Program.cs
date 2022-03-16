@@ -12,6 +12,7 @@ namespace ManajemenOOP
         //{
         //    return a + b;
         //}
+        static List<Employee> employee = new List<Employee>();
         static void Main(String[] args)
         {
 
@@ -21,8 +22,8 @@ namespace ManajemenOOP
             Employee employee = new Employee();*/
 
             Employee Data1 = new Employee();
-            Employee DI = new Employee();
-            List<Employee> employee = new List<Employee>();
+            
+            
             Data1.Nama = "Gilang Rizky";
             Data1.Nomor = "1";
             Data1.Gaji = 1000000;
@@ -35,6 +36,7 @@ namespace ManajemenOOP
             string nama = Console.ReadLine();
             do
             {
+                Employee DI = new Employee();
                 Console.WriteLine("Hallo " + nama);
                 Console.WriteLine("Apa yang mau dilakukan ?");
                 Console.WriteLine("1. Tambah Pegawai ");
@@ -74,34 +76,25 @@ namespace ManajemenOOP
 
                     }
                     Console.WriteLine("\n");
+                    Console.Write("Masukkan Nama yang ingin dihapus : ");
+                    string input = Console.ReadLine();
 
-                    Console.WriteLine("Masukan Nama Pegawai yang mau dihapus ");
-                    DI.Nama = Console.ReadLine();
+                    int index = employee.FindIndex(User => User.Nama == input);
 
-                    Console.WriteLine("Masukan Nomor pegawai yang mau dihapus ");
-                    DI.Nomor = Console.ReadLine();
+                    if (index != -1)
+                    {
+                        employee.RemoveAt(index);
+                        Console.WriteLine($"{input} berhasil dihapus");
 
-                    Console.WriteLine("Masukan besaran Gaji yang mau dihapus ");
-                    string gaji = Console.ReadLine();
-                    DI.Gaji = int.Parse(gaji);
-                    employee.Remove(DI);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{input} Tidak Ditemukan");
+                    }
 
 
                 }
-                // else if (pil == " tambah gaji pegawai ") 
-                // {
-                //  foreach (var pair in np.Zip(gaji, (np, gaji) => new { dp = np, ga = gaji }))
-                // {
-                //     int no;
-                //      no = 0;
-                //      no++;
-                //      Console.WriteLine(no + pair.dp + pair.ga);
-
-                // }
-                // Console.WriteLine("pilih pegawai berdasarkan nomor");
-                // string pilihan = Console.ReadLine();
-                // int.Parse(pilihan);
-                // int choice = gaji.IndexOf(pilihan);
+                
                 Console.WriteLine(" tetap ingin menggunakan aplikasi ? ");
 
                 Console.WriteLine("y/n");

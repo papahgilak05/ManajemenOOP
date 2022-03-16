@@ -13,3 +13,18 @@ E:\MATERI METRODATA\FUNdamental C#\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\re
 E:\MATERI METRODATA\FUNdamental C#\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.pdb
 E:\MATERI METRODATA\FUNdamental C#\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.genruntimeconfig.cache
 E:\MATERI METRODATA\FUNdamental C#\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ref\ManajemenOOP.dll
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\bin\Debug\net6.0\ManajemenOOP.exe
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\bin\Debug\net6.0\ManajemenOOP.deps.json
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\bin\Debug\net6.0\ManajemenOOP.runtimeconfig.json
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\bin\Debug\net6.0\ManajemenOOP.dll
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\bin\Debug\net6.0\ManajemenOOP.pdb
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.csproj.AssemblyReference.cache
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.AssemblyInfoInputs.cache
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.AssemblyInfo.cs
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.csproj.CoreCompileInputs.cache
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.dll
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\refint\ManajemenOOP.dll
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.pdb
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ManajemenOOP.genruntimeconfig.cache
+E:\MATERI METRODATA\ManajemenOOP\ManajemenOOP\obj\Debug\net6.0\ref\ManajemenOOP.dll
